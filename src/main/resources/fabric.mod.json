@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "id": "ntf.mod",
+  "version": "1.0.0",
+  "name": "NotTeleportFly",
+  "description": "Works on non-security servers.",
+  "authors": [
+    "allow"
+  ],
+  "contact": {},
+  "license": "MIT",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "com.ntf.mod.Ntf.mod"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=0.18.0",
+    "fabric": "*",
+    "minecraft": "1.21.11"
+  }
+}
